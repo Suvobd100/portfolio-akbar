@@ -32,6 +32,13 @@
 .dark-3 {
     color: #757575;
 }
+/* header */
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    margin-top: 38px;
+    background-position: top left, bottom right;
+}
 
 /* NAV style start */
 nav {
