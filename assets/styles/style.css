@@ -18,9 +18,10 @@
     padding: 18px 36px;
     border-radius: 5px;
     border: none;
-    
+
 }
-.primary-bg{
+
+.primary-bg {
     background-color: #FFF8F3;
 }
 
@@ -38,7 +39,7 @@
 }
 
 /* header */
-.header{
+.header {
     background-image: url("/assets/images/developer.png"), url("/assets/images/header_bg.png");
     background-repeat: no-repeat;
     margin-top: 38px;
@@ -79,18 +80,21 @@ nav li a {
 }
 
 /* hero section */
-.hero-section{
+.hero-section {
     display: flex;
     justify-content: space-between;
     margin: 0 30px 0 200px;
     margin-top: 185px;
 }
-.hero-contain{
+
+.hero-contain {
     max-width: 585;
 }
-.hero-profile-pic{
+
+.hero-profile-pic {
     width: 480px;
 }
+
 .hero-greetings {
     font-size: 45px;
     font-weight: 600px;
@@ -108,39 +112,70 @@ nav li a {
     text-align: left;
     margin-bottom: 30px;
 }
+
 /* hero end */
-/* main style */
-.main{
-   max-width: 1140px;
-   /* margin: 1px auto; */
-   max-height: 550px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 130px;
-   
+
+/* main style start */
+.main {
+    max-width: 1140px;
+    max-height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+
 }
+
 /* about */
-.about{
+.about {
     /* width: 827px; */
     width: 827px;
-    height: 288px;
+    /* height: 288px; */
     text-align: center;
     margin: 130px 150px;
     padding: 30px 8px;
     background-color: #FFFFFF;
     border-radius: 10px;
-    /* gap:30px; */
     border: 1px solid rgb(0, 0, 0);
-    box-sizing: border-box;
+   
+    
+    /* box-sizing: border-box; */
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: 600;
-    
+    margin-bottom: 30px;
 
 }
+.about-info-contaner {
+    margin-top:0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-title{
+    margin-top: 30px;
+
+}
+.about-info{
+    font-weight: bold;
+}
 .section-description{
+    margin-bottom: 10px;
+}
+
+
+
+
+.section-description {
     font-size: 18px;
+    /* margin-bottom: 30px; */
 
 }
