@@ -32,6 +32,7 @@
 
 .dark-2 {
     color: #474747;
+    
 }
 
 .dark-3 {
@@ -40,6 +41,9 @@
 
 .text-center{
     text-align: center;
+}
+.text-left{
+    text-align: left;
 }
 
 /* header */
@@ -129,8 +133,7 @@ nav li a {
 .section-about {
     max-width: 1140px;
     max-height: 550px;
-
-   
+  
 
     margin-top: 130px;
     margin-bottom: 130px;
@@ -217,4 +220,8 @@ nav li a {
 /* summary of resume start */
 .Download-cv-end{
     margin-top: 60px;
+}
+
+.resume-descrption{
+    margin-top: 20px;
 }
