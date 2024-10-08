@@ -149,10 +149,21 @@ nav li a {
     background-color: #FFFFFF;
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0);
-
-
-    /* box-sizing: border-box; */
 }
+/* about skill style */
+.about-skill {
+    /* width: 827px; */
+    width: 827px;
+    /* height: 288px; */
+    text-align: center;
+    margin: 130px 150px;
+    padding: 30px 8px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+
 
 .section-title {
     font-size: 35px;
@@ -165,6 +176,7 @@ nav li a {
     margin-top: 0px;
     display: flex;
     justify-content: space-around;
+    gap: 24px;
 
 }
 
@@ -176,9 +188,22 @@ nav li a {
 .about-info {
     font-weight: bold;
 }
+.about-info-skill {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
 
 .section-description {
     margin-bottom: 10px;
+}
+/* style skill descrption */
+.section-description-skill {
+    margin-bottom: 30px;
+}
+
+.skill-img{
+    margin-bottom: 30px;
+
 }
 
 
@@ -190,7 +215,3 @@ nav li a {
 
 }
 /* skill div style start */
-.skill-main-div{
-    justify-content: center;
-    align-items: center;
-}
