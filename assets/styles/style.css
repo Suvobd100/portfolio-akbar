@@ -38,6 +38,10 @@
     color: #757575;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* header */
 .header {
     background-image: url("/assets/images/developer.png"), url("/assets/images/header_bg.png");
@@ -184,4 +188,9 @@ nav li a {
     font-size: 18px;
     /* margin-bottom: 30px; */
 
+}
+/* skill div style start */
+.skill-main-div{
+    justify-content: center;
+    align-items: center;
 }
