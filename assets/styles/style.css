@@ -248,6 +248,51 @@ nav li a {
     margin-bottom: 60px;
 }
 /* footer */
-.ftr-top-margin{
-    margin-top: 130px;
+#footer{
+    width: 830px;
+    height: 600px;
+    right: 25px;
+    /* align-items: center; */
+    background: rgb(255, 248, 243);
+    /* *position: absolute; */
+    margin-top: 120px;
+    margin-bottom: 20px;
+    /* padding: 200px 0 200px; */
+} 
+.footer-contaner{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0 200px;
+    gap: 4px;
+
+   
+ }
+.connect-items{
+    /* background-color: palegoldenrod; */
+    text-align: left;
+    padding-left: 10px;
+}
+ .connect-items h1{
+    margin-bottom: 10px;
+ }
+ .icons{
+    margin-top: 15px;
+ }
+
+.mail{
+    padding-right: 20px;
+    left:10px
+}
+.mail-form{
+    /* background-color: blue; */
+    margin-top: 10px;
+    text-align: left;
+    
+}
+
+.mail-form button{
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #FD6E0A;
+
 }
